@@ -1,18 +1,18 @@
 /*   STEP 1   */
 export const leagueID = "1257058638002925568"; // your league ID
 export const leagueName = "MALiga"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dues = 200; // (optional) used in template constitution page
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>In 2006, Sobo inspired us all to form a bond we all wish would have been broken by now. MALiga was formed to combine our love of fantasy football and our love of, uh MAL?</p>
+  <p>This bond is now in its second decade of existence, and our league has evolved along the way. From 2006-2014 this was a traditional re-draft league in ESPN. In 2015 we pivoted to 2 games a week with a head to head match up and a game against the median. This was so cutting edge at the time, the commissioner kept an offline spreadsheet to calculate the scores and was always timely submitting the standing updates. In 2020, we moved to Sleeper and introduced the Superflex. And in 2025 we have converted to a keeper league with IDP's.</p>
+  <p>Though the format has changed, our love for MAL hasn't.</p>
+  <p>Each year we compete for the MAL Cup (physical trophy destroyed by Vince in 2012) and this year, 2025, a first place prize of $1500.</p>
+  <p>This year, our defending champion is Ben. He is playing for the the 1st place prize money and the gains from the MAL ETF.</p>
+  <p>I wish everyone other than Ben, good luck in the inaugural keeper season, and I think I speak for every Owner in the league... Please don't quit after Year 1 J Mill!</p>
 `;
 
 /*   STEP 3   */
